@@ -19,17 +19,23 @@
         margin-right: 20px;
       }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
+    <form class="" action="index.html" method="post">
+      <label>Username</label>
+      <input type="text" id="username" name="username" value=""></input>
+      <input type="submit" name="" id="submit" value="Submit"></input>
+    </form>
     <main id="main">
     </main>
     <div class="flexbox-container">
       <div>
-        <h3>Repositories</h3>
+        <h3 id="repositories">Repositories</h3>
         <div id="repositories"></div>
       </div>
       <div>
-        <h3>Details</h3>
+        <h3 id="#details">Details</h3>
         <div id="details"></div>
       </div>
     </div>
